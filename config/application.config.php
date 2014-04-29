@@ -9,6 +9,7 @@ return array(
     'modules' => array(
         'DoctrineModule',
         'DoctrineMongoODMModule',
+        'ZendDeveloperTools',
         'Application',
         'Demo'
         ),

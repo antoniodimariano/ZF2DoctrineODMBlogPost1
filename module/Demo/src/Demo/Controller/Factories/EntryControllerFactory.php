@@ -1,11 +1,12 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: hellbreak
+ * User   : Antonio Di Mariano
+ * email  : antonio.dimariano@gmail.com
+ * github : https://github.com/antoniodimariano
  * Date: 29/04/14
  * Time: 01:40
  */
-namespace Demo\Controller;
+namespace Demo\Controller\Factories;
 
 use Zend\ServiceManager\FactoryInterface;
 use Zend\ServiceManager\ServiceLocatorInterface;

@@ -1,4 +1,11 @@
 <?php
+/**
+ * User   : Antonio Di Mariano
+ * email  : antonio.dimariano@gmail.com
+ * github : https://github.com/antoniodimariano
+ * Date: 29/04/14
+ * Time: 11:52
+ */
 namespace Demo;
 
 use Zend\ModuleManager\Feature\ViewHelperProviderInterface;

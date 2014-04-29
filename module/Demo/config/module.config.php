@@ -5,11 +5,13 @@ return array(
      * All controllers must be registered in the following format:
      * Canonical name => Namespaced class
      */
+    /*
     'controllers' => array(
         'invokables' => array(
             'Demo\Controller\Entry' => 'Demo\Controller\EntryController'
         ),
     ),
+    */
     
     /*
      * A basic route called entry which will route on /entry
@@ -48,12 +50,28 @@ return array(
      * Set this to say that we're using JSON instead of HTML. This actually will
      * still work even without this, in our example
      */
+
     'view_manager' => array(
         'strategies' => array(
             'ViewJsonStrategy',
         ),
     ),
-    
+
+
+
+    /*
+     *  Set this if you want to use the ViewModel instead of JSON.
+     *
+     *
+     *
+    'view_manager' => array(
+        'template_path_stack' => array(
+            'structures' => __DIR__ . '/../view',
+        ),
+     ),
+    */
+
+
     /*
      * MUST register the Entity with doctrine ODM_Driver or else you will get an Exception
      * referring to "Demo\Entity\Entry cannot be found in the chained namespaces"

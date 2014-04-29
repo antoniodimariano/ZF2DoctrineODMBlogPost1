@@ -30,7 +30,7 @@ class EntryMapper implements EntryMapperInterface
 	public function __construct(ObjectManager $documentManager,
 				    ObjectRepository $repository)
 	{
-		$this->documentManager = $documentManager;
+        $this->documentManager = $documentManager;
 		$this->repository = $repository;
 	}
 	
