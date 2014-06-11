@@ -7,11 +7,20 @@
  */
 return array(
     'modules' => array(
+        'ZendDeveloperTools',
+
         'DoctrineModule',
         'DoctrineMongoODMModule',
-        'ZendDeveloperTools',
         'Application',
-        'Demo'
+        'Demo',
+
+        'ScnSocialAuth',
+        'ScnSocialAuthDoctrineMongoODM',
+
+        'ZfcBase',
+        'ZfcUser',
+        'ZfcUserDoctrineMongoODM'
+
         ),
     'module_listener_options' => array(
         'module_paths' => array(
